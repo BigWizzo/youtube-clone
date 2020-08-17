@@ -487,3 +487,7 @@ hr {
             border-bottom: 1px solid rgb(199, 195, 195);
             
         }
+
+        iframe{
+            border-width: 0px;
+        }
