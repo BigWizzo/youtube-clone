@@ -98,3 +98,297 @@ hr {
     #col3 .icon-wrapper svg{
         fill:#606060;
     }
+
+    #page-wrapper {
+        display: flex;
+        flex-direction: row;
+
+        background: #f8f8fa;
+        padding: 20px;
+
+        }
+        
+        #main-content {
+            width: 70%;
+            margin: 20px 20px;
+        }
+/* video stats */
+        #video-stats{
+            display: flex;
+            flex-direction: row;
+            justify-content: space-between;
+        }
+        #views{
+            margin: 10px;
+        }
+        #likes-dislikes{
+            display: flex;
+            flex-direction: row;
+        }
+
+        #likes-dislikes > div{
+            margin: 10px;
+            cursor: pointer;
+        }
+
+        #likes-dislikes > div > i {
+            color:#666464;
+        }
+
+        #save-icon > i > svg{
+            width:20px;
+            height:20px;
+            fill:#666464;
+            vertical-align: middle;
+            display: inline-block;
+        }
+
+        #likes-dislikes > div > span{
+            margin: 5px;
+            color:#666464;
+            
+        }       
+
+        #likes-dislikes > #save-icon > span{
+            margin: 0 5px;
+          
+            
+        }       
+        #uploader-info{
+            display: flex;
+            flex-direction: row;
+        }
+
+        #uploader-icon{
+            margin-top: 5px;
+            width:7%;
+        }
+
+        #channel-info{
+            width:60%;
+        }
+
+        #subscriber-button{
+            width:25%;
+        }
+
+/* video info */
+        #video-info{
+            display: flex;
+            flex-direction: row;
+            padding-left: 7%;
+        }
+/* 
+        #blank-div{
+            width:15%;
+        } */
+
+        #video-content{
+            width:60%;
+        }
+
+        #video-content > #description{
+            font-size: 0.9rem;
+            color: #302d2d;
+        }
+
+        #video-content > #show-more > span{
+            cursor: pointer;
+        }
+
+        /* video icon styles */
+        #uploader-icon > img{
+            border-radius: 50%;
+        }
+
+        /* channel info styles */
+        #channel-info > #uploader-name{
+            font-size: 1rem;
+            font-weight: bold;
+            margin-bottom: 1px;
+        }
+
+        #channel-info > #subscriber-info{
+            font-size: 0.9rem;
+            margin-top: 5px;
+            color:#606060;
+            
+        }
+
+        div#subscriber-button{
+            display: flex;
+            justify-content: flex-end;
+           
+        }
+
+       div#subscriber-button  button{
+            text-transform: uppercase;
+            background: #CC0202;
+            border-style: solid;
+            color:#fff;
+            border-color: #CC0202;
+            border-radius: 5%;
+            display: inline-block;
+            width: 120px;
+            height: 54px;
+            font-weight: bold;
+            cursor: pointer;
+        }
+
+/* comments stats */
+        #comments-stats{
+            display: flex;
+            flex-direction: row;
+        }
+
+        #comments-num{
+            width: 20%;
+        }
+
+        #comments-num > p{
+            font-size: 1rem;
+        }
+
+        #comments-sorting{
+            display: flex;
+            flex-direction: row;
+            width: 85%;
+            align-items: center;
+        }
+
+        #comments-icon{
+            display: flex;
+            width: 6%;
+            /* padding-top: 14px; */
+        }
+
+        #comments-icon > svg{
+            width: 24px;
+            height: 24px;
+            /* margin-right: 10px; */
+            fill:#5c5a5a;
+        }
+
+        #comments-sort{
+            width: 70%;
+            color: #5c5a5a;
+            text-transform: uppercase;
+        }
+
+        #comments-sort > p{
+            font-size: 1rem;
+        }
+
+
+/* comments form */
+        #comments-form{
+            display: flex;
+            flex-direction: row;
+        }
+
+        #comment-form-icon{
+            width: 10%;
+        }
+        #comment-form-icon > img{
+            border-radius: 50%;
+        }
+
+        #comments-text-box{
+            width:85%;
+        }
+
+        #comments-text-box > input, #comments-text-box > input:hover, #comments-text-box > input:focus{
+         width :100%;
+         border: none;
+         border-bottom: 1px solid grey;
+         background: transparent;
+         outline: none;
+        }
+
+/* comments buttons */
+        #comment-buttons{
+            display: flex;
+            flex-direction: row;
+            justify-content: flex-end;
+        }
+
+        #comment-buttons > #cancel-btn{
+            background: transparent;
+            padding: 10px 20px;
+            color: grey;
+            text-transform: uppercase;
+            border: none;
+            cursor: pointer;
+            font-weight: 500;
+        }
+
+        #comment-buttons > #comment-btn{
+            background: #cecece;
+            padding: 10px 20px;
+            color: white;
+            text-transform: uppercase;
+            border: none;
+            cursor: pointer;
+            border-radius: 5%;
+            font-weight: 500;
+        }
+
+/* comments card */
+        .comments-card{
+            display: flex;
+            flex-direction: row;
+        }
+
+        .comment-card-icon{
+            width: 7%;
+        }
+
+        .comment-card-icon > img{
+            border-radius: 50%;
+        }
+
+        .comment-card-column{
+            width:85%;
+        }
+
+        .comment-card-column{
+            display: flex;
+            flex-direction: column; 
+        }
+
+        .name-time-frame{
+            display: flex;
+            flex-direction: row; 
+        }
+
+        .name-time-frame > .commenter{
+            font-weight: bold;
+            padding: 0px 3px;
+            margin: 2px 0px;
+        }
+
+        .name-time-frame > .comment-time{
+            padding: 0px 3px;
+            margin: 2px 0px;
+            color: grey;
+        }
+
+        .comment-thumbs{
+            display: flex;
+            flex-direction: row;
+            padding: 10px;
+            padding-left: 0px;
+        }
+
+        .comment-thumbs > i {
+            padding: 0px 7px;
+        }
+
+        .comment-thumbs > div {
+            padding: 0px 15px;
+        }
+
+        .comment-replies{
+            display: flex;
+            flex-direction: row; 
+        }
