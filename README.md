@@ -15,6 +15,16 @@
     - The search button is at the end (rightmost part) of the search bar.
     - It has at least three embedded images on the rightmost part of the navbar that represent icons and/or an avatar.
 - # Video
+    - It is displayed.
+    - It shows the video title.
+    - It shows the number of views.
+    - It has like and dislike icons.
+    - It has a share button.
+    - It shows the avatar of the user who uploaded the video.
+    - It has a subscribe button.
 - # Sidebar Recommended videos
 
-Additional description about the project and its features.
+    - It shows the recommended video’s thumbnail preview (as image not as an actual video).
+    - It shows the title of the video.
+    - It shows the number of views.
+
