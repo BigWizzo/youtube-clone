@@ -65,9 +65,9 @@ html5validator index.html
 ## Authors
 
 👤 **Author1**
-- Github: [@githubhandle](https://github.com/ojrdev)
+- Github: [@ojrdev](https://github.com/ojrdev)
 
 👤 **Author2**
-- Github: [@githubhandle](https://github.com/bigwizzo)
+- Github: [@bigwizzo](https://github.com/bigwizzo)
 
 
