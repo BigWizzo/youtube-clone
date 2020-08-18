@@ -28,3 +28,23 @@
     - It shows the title of the video.
     - It shows the number of views.
 
+## Built With
+
+- HTML
+- CSS
+
+## Live Demo
+
+[Live Demo Link](https://livedemo.com)
+
+## Getting Started
+
+ To get a local copy up and running follow these simple example steps.
+
+### Prerequisites
+> Browser
+> Text editor
+> npm
+
+### Setup
+> """git clone https://github.com/BigWizzo/youtube-clone.git"""
