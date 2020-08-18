@@ -35,7 +35,7 @@
 
 ## Live Demo
 
-[Live Demo Link](https://livedemo.com)
+[Live Demo Link](https://bigwizzo.github.io/youtube-clone/)
 
 ## Getting Started
 
