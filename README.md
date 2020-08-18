@@ -47,4 +47,4 @@
 > npm
 
 ### Setup
-> """git clone https://github.com/BigWizzo/youtube-clone.git"""
+> ''' git clone https://github.com/BigWizzo/youtube-clone.git '''
