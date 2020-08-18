@@ -62,5 +62,12 @@ As an alternative, you can also install the ```html5validator``` using ```pip```
 pip install --user html5validator
 html5validator index.html 
 ```
+## Authors
+
+👤 **Author1**
+- Github: [@githubhandle](https://github.com/ojrdev)
+
+👤 **Author2**
+- Github: [@githubhandle](https://github.com/bigwizzo)
 
 
