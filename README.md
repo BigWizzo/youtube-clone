@@ -53,7 +53,7 @@
 > Open the index.html from your browser.
 
 ### Run tests
->     Run ``` npx html-validator-cli --quiet --file index.html ``` to run the validator over the ```index.html``` file.
+Run ``` npx html-validator-cli --quiet --file index.html ``` to run the validator over the ```index.html``` file.
 
 The ```--quiet``` will only list ```errors```. If you also want to see the warnings use the ```--verbose``` flag instead.
 As an alternative, you can also install the ```html5validator``` using ```pip```:
