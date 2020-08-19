@@ -54,7 +54,6 @@ a{
         border-style:solid;
         border-radius: 0px;
         border-right:0px;
-        border-color: #ccc;
         box-shadow: none !important;
         
     }
@@ -63,7 +62,6 @@ a{
         margin-left:0 !important;
         border-style:solid;
         border-radius: 0px;
-        border-color: #ccc;
         cursor: pointer;
     }
 
@@ -127,14 +125,7 @@ a{
         .likes-dislikes{
             display: flex;
             flex-direction: row;
-        }
 
-        .likes-dislikes > div{
-            margin: 10px;
-        }
-
-        .likes-dislikes > div > a > i {
-            color:#666464;
         }
 
         .save-icon > a > i > svg{
@@ -144,19 +135,17 @@ a{
             vertical-align: middle;
             display: inline-block;
         }
-
-        .likes-dislikes > div > button{
+        
+        .likes-dislikes > div > button, .likes-dislikes > div > a, .likes-dislikes > .likes{
             margin: 5px;
-            color:#666464;
             background: transparent;
             border: none;
-            
-        }     
+        }
 
-        .likes-dislikes > .save-icon > span{
-            margin: 0 5px;
-          
-            
+        .likes-dislikes > .save-icon > button{
+            margin: 5px;
+            background: transparent;
+            border: none;
         }       
         .uploader-info{
             display: flex;
@@ -180,9 +169,7 @@ a{
 
         .channel-info .subscriber-info{
             font-size: 0.9rem;
-            margin-top: 5px;
-            color:#606060;
-            
+            margin-top: 5px;            
         }
 
         div.subscriber-button{
@@ -194,10 +181,7 @@ a{
 
        div.subscriber-button > a{
         text-transform: uppercase;
-        background: #CC0202;
         border-style: solid;
-        color: #fff;
-        border-color: #CC0202;
         border-radius: 5%;
         display: block;
         width: 120px;
@@ -220,9 +204,8 @@ a{
             width:60%;
         }
 
-        .video-content > #description{
+        .video-content > .description{
             font-size: 0.9rem;
-            color: #302d2d;
         }
 
         /* #video-content > #show-more > span{
@@ -272,7 +255,6 @@ a{
 
         .comments-sort{
             width: 70%;
-            color: #5c5a5a;
             text-transform: uppercase;
         }
 
@@ -317,7 +299,6 @@ a{
         .comment-buttons > .cancel-btn{
             background: transparent;
             padding: 10px 20px;
-            color: grey;
             text-transform: uppercase;
             border: none;
             font-weight: 500;
@@ -326,7 +307,6 @@ a{
         .comment-buttons > .comment-btn{
             background: #cecece;
             padding: 10px 20px;
-            color: white;
             text-transform: uppercase;
             border: none;
             border-radius: 5%;
@@ -370,7 +350,6 @@ a{
         .name-time-frame > .comment-time{
             padding: 0px 3px;
             margin: 2px 0px;
-            color: grey;
         }
 
         .comment-thumbs{
@@ -508,4 +487,20 @@ a{
 
         .white{
             color: white;
+        }
+
+        .border-red{
+            border-color: #CC0202;
+        }
+
+        .border-light-gray{
+            border-color: #ccc;
+        }
+
+        .bg-red{
+            background: #CC0202;
+        }
+
+        .deep-gray{
+            color: #302d2d;
         }
