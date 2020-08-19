@@ -102,7 +102,7 @@ a{
         fill:#606060;
     }
 
-    #page-wrapper {
+    .page-wrapper {
         display: flex;
         flex-direction: row;
 
@@ -111,33 +111,33 @@ a{
 
         }
         
-        #main-content {
+        .main-content {
             width: 70%;
             margin: 20px 20px;
         }
 /* video stats */
-        #video-stats{
+        .video-stats{
             display: flex;
             flex-direction: row;
             justify-content: space-between;
         }
-        #views{
+        .views{
             margin: 10px;
         }
-        #likes-dislikes{
+        .likes-dislikes{
             display: flex;
             flex-direction: row;
         }
 
-        #likes-dislikes > div{
+        .likes-dislikes > div{
             margin: 10px;
         }
 
-        #likes-dislikes > div > a > i {
+        .likes-dislikes > div > a > i {
             color:#666464;
         }
 
-        #save-icon > a > i > svg{
+        .save-icon > a > i > svg{
             width:20px;
             height:20px;
             fill:#666464;
@@ -145,7 +145,7 @@ a{
             display: inline-block;
         }
 
-        #likes-dislikes > div > button{
+        .likes-dislikes > div > button{
             margin: 5px;
             color:#666464;
             background: transparent;
@@ -153,7 +153,7 @@ a{
             
         }     
 
-        #likes-dislikes > #save-icon > span{
+        .likes-dislikes > .save-icon > span{
             margin: 0 5px;
           
             
