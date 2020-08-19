@@ -5,7 +5,7 @@
 ![screenshot](./screen_shot.png)
 
 > This project clones the youtube interface design.
-> We implement three core features of the yourtube interface as listed below.
+> We implement three core features of the youtube interface as listed below.
 - # Navigation bar
     - It has an embedded image that represents a logo.
     - The logo is aligned to the leftmost part of the navbar.
