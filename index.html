@@ -9,8 +9,8 @@
     <title>YouTube Clone</title>
 </head>
 <body>
-    <nav class="nav-bar">
-        <div class="col1">
+    <nav class="flex nav-bar">
+        <div class="flex col1">
             <!-- logo -->
             <div class="logo">
             <svg viewBox="0 0 200 60" preserveAspectRatio="xMidYMid meet" focusable="false" class="style-scope ytd-topbar-logo-renderer" style="pointer-events: none; display: block; width: 100%; height: 100%;">
@@ -59,9 +59,9 @@
             </svg>
           </div>
          </div>
-         <div class="col2">
+         <div class="flex col2">
             <!-- search box -->
-            <form action="#" method="POST">
+            <form class="flex" action="#" method="POST">
                 <input type="text" name="search" class="searchbox border-light-gray"/>
                 <button class="searchBtn border-light-gray">
                     <svg viewBox="0 0 24 24" preserveAspectRatio="xMidYMid meet" focusable="false" class="style-scope yt-icon"><g class="style-scope yt-icon">
@@ -71,7 +71,7 @@
                 </button>
             </form>
         </div>
-        <div class="col3">
+        <div class="flex col3">
             <!-- first icon -->
             <div class="icon-wrapper">
             <svg viewBox="0 0 24 24" preserveAspectRatio="xMidYMid meet" focusable="false" class="style-scope yt-icon" style="pointer-events: none; display: block; width: 100%; height: 100%;"><g class="style-scope yt-icon">
@@ -92,20 +92,20 @@
           </div>
             <!-- avatar -->
             <div class="icon-wrapper">
-            <img class="avatar" class="style-scope yt-img-shadow" alt="Avatar image" height="32" width="32" src="https://lh3.googleusercontent.com/a-/AOh14GjNnDXdBCr3RyYLDiTmWcsKadXGWloReDBeBo__hw=s88-c-k-c0x00ffffff-no-rj-mo">
+            <img class="avatar" alt="Avatar image" height="32" width="32" src="https://lh3.googleusercontent.com/a-/AOh14GjNnDXdBCr3RyYLDiTmWcsKadXGWloReDBeBo__hw=s88-c-k-c0x00ffffff-no-rj-mo">
             </div>
           </div>
     </nav> 
     
       <!-- beginning of page wrapper-->
-      <div class="page-wrapper">
+      <div class="flex page-wrapper">
 
       
 
       <!-- beginning of main content -->
       <main class="main-content">
         <div class="main-video">
-          <iframe width=100% height="450" src="https://www.youtube.com/embed/V74l_zS1x8E" 
+          <iframe height="450" src="https://www.youtube.com/embed/V74l_zS1x8E" 
           allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" 
           allowfullscreen>
         </iframe>
@@ -113,11 +113,11 @@
         <div class="video-title">
           <h2>Contributing to Open Source Part I: The Easy Way</h2>
         </div>
-        <div class="video-stats">
+        <div class="flex video-stats">
           <div class="views">
             10 390 views . 12 August 2020
           </div>
-          <div class="likes-dislikes">
+          <div class="flex likes-dislikes">
             <div class="likes">
               <a href="#"><i class="fa fa-thumbs-up gray" aria-hidden="true"></i></a>
               <a class="gray" href="#">89</a>
@@ -131,9 +131,9 @@
               <button type="button">SHARE</button>
             </div>
             <div class="save-icon">
-              <a href="#"><i><svg viewBox="0 0 24 24" preserveAspectRatio="xMidYMid meet" focusable="false" class="style-scope yt-icon" >
+              <a href="#"><i><svg viewBox="0 0 24 24" preserveAspectRatio="xMid>
                   <g class="style-scope yt-icon">
-                    <path d="M14 10H2v2h12v-2zm0-4H2v2h12V6zm4 8v-4h-2v4h-4v2h4v4h2v-4h4v-2h-4zM2 16h8v-2H2v2z" class="style-scope yt-icon"></path>
+                    <path d="M14 10H2v2h12v-2zm0-4H2v2h12V6zm4 8v-4h-2v4h-4v2h4v4h2v-4h4v-2h-4zM2 16h8v-2H2v2z"></path>
                   </g>
                 </svg></i></a>
               <button type="button">SAVE</button>
@@ -142,7 +142,7 @@
           </div>
         </div>
         <hr>
-        <div class="uploader-info">
+        <div class="flex uploader-info">
           <!-- uploader info here -->
           <div class="uploader-icon">
             <img  alt="" width="48" src="https://yt3.ggpht.com/a/AATXAJyfp0akR7PCq72FcsHL1DrLUbzqKet6_ZK6Nw=s176-c-k-c0xffffffff-no-rj-mo">
@@ -151,9 +151,9 @@
             <p class="uploader-name">The Odin Project</p>
             <p class="subscriber-info gray">1.01K subscribers</p>
           </div>
-          <div class="subscriber-button"><a class="bg-red border-red white" href="#">subscribe</a></div>
+          <div class="flex subscriber-button"><a class="bg-red border-red white" href="#">subscribe</a></div>
         </div>
-        <div class="video-info">
+        <div class="flex video-info">
           <!-- video info here -->
           <div class="video-content">
             <p class="description deep-gray">How do you contribute to open source?  In this video, I'll describe the easiest way to make a simple contribution to an open source project -- without using the command line, a text editor, "forking a repo", or even touching Git outside of Github.  I'll also describe what kinds of </p>
@@ -161,16 +161,16 @@
           </div>
         </div>
         <hr>
-        <div class="comments-stats">
+        <div class="flex comments-stats">
           <!-- comments stats here -->
           <div class="comments-num">
             <p>15 Comments</p>
           </div>
-          <div class="comments-sorting">
-            <div class="comments-icon">
-              <svg viewBox="0 0 24 24" class="style-scope yt-icon"><g class="style-scope yt-icon">
-                <path d="M3 18h6v-2H3v2zM3 6v2h18V6H3zm0 7h12v-2H3v2z" class="style-scope yt-icon"></path>
-                <path d="M0 0h24v24H0z" fill="none" class="style-scope yt-icon"></path>
+          <div class="flex comments-sorting">
+            <div class="flex comments-icon">
+              <svg viewBox="0 0 24 24"><g>
+                <path d="M3 18h6v-2H3v2zM3 6v2h18V6H3zm0 7h12v-2H3v2z"></path>
+                <path d="M0 0h24v24H0z" fill="none"></path>
               </g></svg>
             </div>
             <div class="comments-sort gray">
@@ -178,7 +178,7 @@
             </div>
           </div>
         </div>
-        <div class="comments-form">
+        <div class="flex comments-form">
           <!-- comments form here -->
           <div class="comment-form-icon">
             <img alt="Willard Nyamunokora" src="https://lh5.googleusercontent.com/-zJQbXd-WDDg/AAAAAAAAAAI/AAAAAAAAAAA/AMZuuclOKITT4QDJbkCig9vcIkMDSO-yNw/s88/photo.jpg" width="40" height="40">
@@ -187,58 +187,58 @@
             <input type="text" placeholder="Add a public comment"/>
           </div>
         </div>
-        <div class="comment-buttons">
-          <button class="cancel-btn"><a class="gray" href="#">cancel</a></button>
-          <button class="comment-btn"><a class="white" href="#">comment</a></button>
+        <div class="flex comment-buttons">
+          <a class="cancel-btn bg-transparent gray" href="#">cancel</a>
+          <a class="comment-btn bg-light-gray white" href="#">comment</a>
         </div>
 
         <!-- comments come here -->
-        <div class="comments-card">
+        <div class="flex comments-card">
           <div class="comment-card-icon">
             <img alt ="icon" src="https://yt3.ggpht.com/a/AATXAJwsPwwwTp7EvQU8V5yIhveenyEtGhz0JmO4TV9a3Q=s48-c-k-c0xffffffff-no-rj-mo" width="40" height="40">
           </div>
-          <div class="comment-card-column">
-            <div class="name-time-frame">
+          <div class="flex comment-card-column">
+            <div class="flex name-time-frame">
               <p class="commenter">Okusa Robert</p>
               <p class="comment-time gray">2 years ago</p>
             </div>
             <div class="comments-content">Thanks for the video! If or when your commit gets approved and merged with the upstream, is it then safe to remove the cloned repo from your computer? Thank you for your help!
             </div>
-            <div class="comment-thumbs">
+            <div class="flex comment-thumbs">
               <i class="fa fa-thumbs-up gray" aria-hidden="true"></i><span>3</span>
               <i class="fa fa-thumbs-down gray" aria-hidden="true"></i><span>1</span>
               <div class="comment-replies-num"><a href="#">REPLY</a></div>
             </div>
           </div>
         </div>
-        <div class="comments-card">
+        <div class="flex comments-card">
           <div class="comment-card-icon">
             <img alt="icon" src="https://yt3.ggpht.com/a/AATXAJzEZVJjKjg21A53_YLuUFN37n490hMqPtCa4eyt-g=s48-c-k-c0xffffffff-no-rj-mo" width="40" height="40">          </div>
-          <div class="comment-card-column">
-            <div class="name-time-frame">
+          <div class="flex comment-card-column">
+            <div class="flex name-time-frame">
               <p class="commenter">Will Farai</p>
-              <p class="comment-time">3 years ago</p>
+              <p class="comment-time gray">3 years ago</p>
             </div>
             <div class="comments-content">A remark to what happening at 04:12 is: after clicking "Propose file change", it now goes to commit page instead of the pull request screen as shown on the video. One need to click the commit name (e.g. patch-1 if it is the first commit of your branch) near the top of the screen to go to the pull request 
             </div>
-            <div class="comment-thumbs">
+            <div class="flex comment-thumbs">
               <i class="fa fa-thumbs-up gray" aria-hidden="true"></i><span>27</span>
               <i class="fa fa-thumbs-down gray" aria-hidden="true"></i><span>89</span>
               <div class="comment-replies-num"><a class="gray" href="#">REPLY</a></div>
             </div>
           </div>
         </div>
-        <div class="comments-card">
+        <div class="flex comments-card">
           <div class="comment-card-icon">
             <img alt="icon" src="https://yt3.ggpht.com/a/AATXAJzJ4Bci2JiOO5CKWjqCGgsAE0xHZcSg9JHVmzsz-g=s48-c-k-c0xffffffff-no-rj-mo" width="40" height="40">          </div>
-          <div class="comment-card-column">
-            <div class="name-time-frame">
+          <div class="flex comment-card-column">
+            <div class="flex name-time-frame">
               <p class="commenter">Yanick Kazoh</p>
-              <p class="comment-time">4 years ago</p>
+              <p class="comment-time gray">4 years ago</p>
             </div>
             <div class="comments-content">Wow this video was super helpful, clear, and concise. Thank you very much.
             </div>
-            <div class="comment-thumbs">
+            <div class="flex comment-thumbs">
               <i class="fa fa-thumbs-up gray" aria-hidden="true"></i><span>17</span>
               <i class="fa fa-thumbs-down gray" aria-hidden="true"></i><span>3</span>
               <div class="comment-replies-num"><a class="gray" href="#">REPLY</a></div>
@@ -250,35 +250,38 @@
 
 
    <!-- beginning of side content -->
-   <div class="side-videos"> 
-    <div class="side-autoplay">
+   <div class="flex side-videos"> 
+    <div class="flex side-autoplay">
       <div class="side-upnext"><p>Up Next</p></div>
-      <div class="side-toggle">
-        <div><span id="autoplay-text">autoplay</span><i class="fa fa-toggle-on" aria-hidden="true"></i></div>
+      <div class="flex side-toggle">
+        <div class="flex">
+          <span class="autoplay-text gray">autoplay</span>
+          <i class="fa fa-toggle-on gray" aria-hidden="true"></i>
+        </div>
       </div>
     </div>
-    <a href="#">
-      <div class="thumbnail-card next-play">
+    <a class="gray" href="#">
+      <div class="flex thumbnail-card next-play">
         <div class="thumbnail-image">
-          <img class="style-scope yt-img-shadow" alt="" src="https://i.ytimg.com/vi/YJZCUhxNCv8/hqdefault.jpg?sqp=-oaymwEZCNACELwBSFXyq4qpAwsIARUAAIhCGAFwAQ==&amp;rs=AOn4CLCxlKUaUTcbJjQxJBiVqoX0xMwFnQ" width="168">
+          <img  alt="" src="https://i.ytimg.com/vi/YJZCUhxNCv8/hqdefault.jpg?sqp=-oaymwEZCNACELwBSFXyq4qpAwsIARUAAIhCGAFwAQ==&amp;rs=AOn4CLCxlKUaUTcbJjQxJBiVqoX0xMwFnQ" width="168">
         </div>
         <div class="thumbnail-title">
-          <h3>'How to Get a Job at the Big 4 - Amazon, Facebook, Google & ...</h3>
-          <p class="thumbnail-channel">SJ Tech</p>
-          <p class="thumbnail-views"><span>1.2M views</span>
+          <h3 class="deep-gray">'How to Get a Job at the Big 4 - Amazon, Facebook, Google & ...</h3>
+          <p class="thumbnail-channel dark-gray">SJ Tech</p>
+          <p class="thumbnail-views dark-gray"><span>1.2M views</span>
             . <span>5 years ago</span>
           </p>
         </div>
       </div>
     </a>
 
-    <a href="#">
-      <div class="thumbnail-card">
+    <a class="gray" href="#">
+      <div class="flex thumbnail-card">
         <div class="thumbnail-image">
-          <img class="style-scope yt-img-shadow" alt="" src="https://i.ytimg.com/vi/mENDYhfxH-o/hqdefault.jpg?sqp=-oaymwEZCNACELwBSFXyq4qpAwsIARUAAIhCGAFwAQ==&rs=AOn4CLAiks9toy1laAgbrWzRVvOiAijYqg" width="168">
+          <img  alt="" src="https://i.ytimg.com/vi/mENDYhfxH-o/hqdefault.jpg?sqp=-oaymwEZCNACELwBSFXyq4qpAwsIARUAAIhCGAFwAQ==&rs=AOn4CLAiks9toy1laAgbrWzRVvOiAijYqg" width="168">
         </div>
         <div class="thumbnail-title">
-          <h3>
+          <h3 class="deep-gray">
             Contributing to Open Source Part II: The Real Way</h3>
           <p class="thumbnail-channel">The Odin Project</p>
           <p class="thumbnail-views"><span>36K views</span> 
@@ -288,13 +291,13 @@
       </div>
     </a>
 
-    <a href="#">
-      <div class="thumbnail-card">
+    <a class="gray" href="#">
+      <div class="flex thumbnail-card">
         <div class="thumbnail-image">
-          <img class="style-scope yt-img-shadow" alt="" src="https://i.ytimg.com/vi/sBws8MSXN7A/hqdefault.jpg?sqp=-oaymwEZCNACELwBSFXyq4qpAwsIARUAAIhCGAFwAQ==&rs=AOn4CLCDpIT4AG_7WCMg9fp5LmpwFtAh8A" width="168">
+          <img  alt="" src="https://i.ytimg.com/vi/sBws8MSXN7A/hqdefault.jpg?sqp=-oaymwEZCNACELwBSFXyq4qpAwsIARUAAIhCGAFwAQ==&rs=AOn4CLCDpIT4AG_7WCMg9fp5LmpwFtAh8A" width="168">
         </div>
         <div class="thumbnail-title">
-          <h3>
+          <h3 class="deep-gray">
             React JS Crash Course</h3>
           <p class="thumbnail-channel">Traversy Media</p>
           <p class="thumbnail-views"><span>1.2M views</span> 
@@ -302,12 +305,7 @@
         </div>
       </div>
     </a>
-
-
-
-   
-
-   
+ 
   </div>
 
 <!-- end of side content -->
