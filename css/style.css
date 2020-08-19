@@ -6,6 +6,11 @@ body{
 hr {
     border: 1px solid #e3e3e3;
 }
+
+a{
+    text-decoration: none;
+}
+
 #nav-bar {
     display: flex;
     flex-direction: row;
@@ -53,8 +58,6 @@ hr {
         box-shadow: none !important;
         
     }
-
-   
 
     #col2  #searchBtn {
         margin-left:0 !important;
@@ -193,12 +196,12 @@ hr {
             color: #302d2d;
         }
 
-        #video-content > #show-more > span{
+        /* #video-content > #show-more > span{
             cursor: pointer;
-        }
+        } */
 
         /* video icon styles */
-        #uploader-icon > img{
+        #uploader-icon > img {
             border-radius: 50%;
         }
 
@@ -222,7 +225,7 @@ hr {
            
         }
 
-       div#subscriber-button  button{
+       div#subscriber-button > button{
             text-transform: uppercase;
             background: #CC0202;
             border-style: solid;
@@ -233,7 +236,7 @@ hr {
             width: 120px;
             height: 54px;
             font-weight: bold;
-            cursor: pointer;
+            /* cursor: pointer; */
         }
 
 /* comments stats */
@@ -319,7 +322,6 @@ hr {
             color: grey;
             text-transform: uppercase;
             border: none;
-            cursor: pointer;
             font-weight: 500;
         }
 
@@ -329,7 +331,6 @@ hr {
             color: white;
             text-transform: uppercase;
             border: none;
-            cursor: pointer;
             border-radius: 5%;
             font-weight: 500;
         }
@@ -410,21 +411,27 @@ hr {
         .thumbnail-card{
             display: flex;
             flex-direction: row;
-            justify-content: space-between;
-            padding: 10px;
+            padding: 10px 0px;
             cursor: pointer;
+            flex-wrap: wrap;
+
         }
 
         .thumbnail-card > .thumbnail-image {
-            width: 45%;
+            width: 40%;
             height: 94px;
-            margin-right: 0;
+            margin-right: 15px;
            
+        }
+
+        .thumbnail-card > .thumbnail-image > img {
+            max-width: 100%;
+            height: auto;           
         }
 
         .thumbnail-card > .thumbnail-title {
            
-            width: 55%;
+            width: 50%;
             margin-top: 0;
             padding: 0px;
             height: 94px;
@@ -491,4 +498,5 @@ hr {
 
         iframe{
             border-width: 0px;
+            max-width: 100%;
         }
