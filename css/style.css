@@ -188,21 +188,21 @@ a{
         div.subscriber-button{
             display: flex;
             justify-content: flex-end;
-            width:33%;           
+            width:33%;
+            align-items: flex-start;          
         }
 
-       div.subscriber-button > button{
-            text-transform: uppercase;
-            background: #CC0202;
-            border-style: solid;
-            color:#fff;
-            border-color: #CC0202;
-            border-radius: 5%;
-            display: inline-block;
-            width: 120px;
-            height: 54px;
-            font-weight: bold;
-            /* cursor: pointer; */
+       div.subscriber-button > a{
+        text-transform: uppercase;
+        background: #CC0202;
+        border-style: solid;
+        color: #fff;
+        border-color: #CC0202;
+        border-radius: 5%;
+        display: block;
+        width: 120px;
+        text-align: center;
+        padding: 10px;
         }
 
 /* video info */
@@ -394,14 +394,14 @@ a{
         }
 
         /* side bar */
-        #side-videos {
+        .side-videos {
             display: flex;
             flex-direction: column;
             width: 30%;
             margin: 20px 20px;
         }
 
-        #embeded-video{
+        .embeded-video{
             width: 100%;
             height: 400px;
         }
@@ -418,8 +418,7 @@ a{
         .thumbnail-card > .thumbnail-image {
             width: 40%;
             height: 94px;
-            margin-right: 15px;
-           
+            padding-right: 15px;
         }
 
         .thumbnail-card > .thumbnail-image > img {
@@ -453,39 +452,39 @@ a{
 
 
         /*  sidebar autoplay */
-        #side-autoplay{
+        .side-autoplay{
             display:flex;
             flex-direction: row;
         }
 
-        #side-autoplay > #side-upnext{
+        .side-autoplay > .side-upnext{
             width: 30%;
         }
 
-        #side-autoplay > #side-upnext > p{
+        .side-autoplay > .side-upnext > p{
             font-weight:bold;
             padding: 10px;
             font-size: 1rem;
             color: #302d2d;
         }
 
-        #side-autoplay > #side-toggle{
+        .side-autoplay > .side-toggle{
             display: flex;
             flex: 1;
             flex-direction: row;
             justify-content: flex-end;
         }
 
-        #side-autoplay > #side-toggle > div{
+        .side-autoplay > .side-toggle > div{
             align-self: center;
         }
 
-        #side-autoplay > #side-toggle > div > #autoplay-text{
+        .side-autoplay > .side-toggle > div > .autoplay-text{
             text-transform: uppercase;
             margin-right: 10px;
         }
 
-        #side-autoplay > #side-toggle > div > i{
+        .side-autoplay > .side-toggle > div > i{
             font-size: 1.5rem;
         }
 
@@ -494,7 +493,19 @@ a{
             
         }
 
-        iframe{
+        /* .main-video {
+            display: flex;
+        } */
+
+        .main-video  iframe{
             border-width: 0px;
-            max-width: 100%;
+            /* max-width: 100%; */
+        }
+
+        .gray{
+            color: #545454;
+        }
+
+        .white{
+            color: white;
         }
