@@ -282,23 +282,24 @@ a{
 
 
 /* comments form */
-        #comments-form{
+        .comments-form{
             display: flex;
             flex-direction: row;
+            padding-top: 20px;
         }
 
-        #comment-form-icon{
+        .comment-form-icon{
             width: 10%;
         }
-        #comment-form-icon > img{
+        .comment-form-icon > img{
             border-radius: 50%;
         }
 
-        #comments-text-box{
+        .comments-text-box{
             width:85%;
         }
 
-        #comments-text-box > input, #comments-text-box > input:hover, #comments-text-box > input:focus{
+        .comments-text-box > input, .comments-text-box > input:hover, .comments-text-box > input:focus{
          width :100%;
          border: none;
          border-bottom: 1px solid grey;
