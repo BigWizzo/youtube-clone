@@ -237,46 +237,46 @@ a{
         /* channel info styles */
 
 /* comments stats */
-        #comments-stats{
+        .comments-stats{
             display: flex;
             flex-direction: row;
         }
 
-        #comments-num{
+        .comments-num{
             width: 20%;
         }
 
-        #comments-num > p{
+        .comments-num > p{
             font-size: 1rem;
         }
 
-        #comments-sorting{
+        .comments-sorting{
             display: flex;
             flex-direction: row;
             width: 85%;
             align-items: center;
         }
 
-        #comments-icon{
+        .comments-icon{
             display: flex;
             width: 6%;
             /* padding-top: 14px; */
         }
 
-        #comments-icon > svg{
+        .comments-icon > svg{
             width: 24px;
             height: 24px;
             /* margin-right: 10px; */
             fill:#5c5a5a;
         }
 
-        #comments-sort{
+        .comments-sort{
             width: 70%;
             color: #5c5a5a;
             text-transform: uppercase;
         }
 
-        #comments-sort > p{
+        .comments-sort > p{
             font-size: 1rem;
         }
 
