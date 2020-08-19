@@ -11,7 +11,7 @@ a{
     text-decoration: none;
 }
 
-#nav-bar {
+.nav-bar {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
@@ -19,20 +19,20 @@ a{
     margin: 20px;
     }
     
-    #col1{
+    .col1{
         display: flex;
         flex-direction: row;
         justify-content: flex-start;
         
     }
 
-    #col1 #logo{
+    .col1 > .logo{
         width: 80px;
         height: 24px;
         margin-top: 10px;
     }
     
-    #col2{
+    .col2{
         display: flex;
         flex-direction: row;
         flex: 0.7;
@@ -41,13 +41,13 @@ a{
 
     }
 
-    #col2  form{
+    .col2 > form{
         display: flex;
         flex:1;
         height: 32px;
     }
 
-    #col2  #searchbox {
+    .col2 .searchbox {
         margin-right:0px;
         padding-right: 0px;
         flex-grow: 0.7;
@@ -59,7 +59,7 @@ a{
         
     }
 
-    #col2  #searchBtn {
+    .col2 .searchBtn {
         margin-left:0 !important;
         border-style:solid;
         border-radius: 0px;
@@ -67,17 +67,17 @@ a{
         cursor: pointer;
     }
 
-    #col2  #searchBtn svg {
+    .col2 .searchBtn svg {
         width: 25px;
         height: 25px;
         fill: rgb(165, 161, 161);
       }
 
-      #col2  #searchBtn svg:hover{
+      .col2 .searchBtn svg:hover{
         fill: rgb(122, 116, 116);
       }
     
-    #col3 {
+    .col3 {
         display: flex;
         flex-direction: row;
         justify-content: space-between;
@@ -87,7 +87,7 @@ a{
 
 
 
-    #col3 .icon-wrapper #avatar{
+    .col3 .icon-wrapper .avatar{
         border-radius: 60px;
     }
 
@@ -98,7 +98,7 @@ a{
 
     }
 
-    #col3 .icon-wrapper svg{
+    .col3 .icon-wrapper svg{
         fill:#606060;
     }
 
