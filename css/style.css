@@ -158,74 +158,40 @@ a{
           
             
         }       
-        #uploader-info{
+        .uploader-info{
             display: flex;
             flex-direction: row;
         }
 
-        #uploader-icon{
+        .uploader-icon{
             margin-top: 5px;
             width:7%;
         }
 
-        #channel-info{
+        .channel-info{
             width:60%;
         }
 
-        #subscriber-button{
-            width:33%;
-        }
-
-/* video info */
-        #video-info{
-            display: flex;
-            flex-direction: row;
-            padding-left: 7%;
-        }
-/* 
-        #blank-div{
-            width:15%;
-        } */
-
-        #video-content{
-            width:60%;
-        }
-
-        #video-content > #description{
-            font-size: 0.9rem;
-            color: #302d2d;
-        }
-
-        /* #video-content > #show-more > span{
-            cursor: pointer;
-        } */
-
-        /* video icon styles */
-        #uploader-icon > img {
-            border-radius: 50%;
-        }
-
-        /* channel info styles */
-        #channel-info > #uploader-name{
+        .channel-info .uploader-name{
             font-size: 1rem;
             font-weight: bold;
             margin-bottom: 1px;
         }
 
-        #channel-info > #subscriber-info{
+        .channel-info .subscriber-info{
             font-size: 0.9rem;
             margin-top: 5px;
             color:#606060;
             
         }
 
-        div#subscriber-button{
+        div.subscriber-button{
             display: flex;
             justify-content: flex-end;
-           
+            width:33%;           
         }
 
-       div#subscriber-button > button{
+       div.subscriber-button > button{
             text-transform: uppercase;
             background: #CC0202;
             border-style: solid;
@@ -238,6 +204,37 @@ a{
             font-weight: bold;
             /* cursor: pointer; */
         }
+
+/* video info */
+        .video-info{
+            display: flex;
+            flex-direction: row;
+            padding-left: 7%;
+        }
+/* 
+        #blank-div{
+            width:15%;
+        } */
+
+        .video-content{
+            width:60%;
+        }
+
+        .video-content > #description{
+            font-size: 0.9rem;
+            color: #302d2d;
+        }
+
+        /* #video-content > #show-more > span{
+            cursor: pointer;
+        } */
+
+        /* video icon styles */
+        .uploader-icon > img {
+            border-radius: 50%;
+        }
+
+        /* channel info styles */
 
 /* comments stats */
         #comments-stats{
