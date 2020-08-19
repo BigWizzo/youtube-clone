@@ -308,13 +308,13 @@ a{
         }
 
 /* comments buttons */
-        #comment-buttons{
+        .comment-buttons{
             display: flex;
             flex-direction: row;
             justify-content: flex-end;
         }
 
-        #comment-buttons > #cancel-btn{
+        .comment-buttons > .cancel-btn{
             background: transparent;
             padding: 10px 20px;
             color: grey;
@@ -323,7 +323,7 @@ a{
             font-weight: 500;
         }
 
-        #comment-buttons > #comment-btn{
+        .comment-buttons > .comment-btn{
             background: #cecece;
             padding: 10px 20px;
             color: white;
