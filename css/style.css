@@ -1,0 +1,435 @@
+body {
+  font-size: 0.8rem;
+  font-family: "Roboto", Arial, sans-serif;
+}
+
+hr {
+  border: 1px solid #e3e3e3;
+}
+
+a {
+  text-decoration: none;
+}
+
+/* flex box */
+.flex{
+    display: flex;
+}
+.flex-row{
+  flex-direction: row;
+}
+
+.flex-column{
+  flex-direction: column;
+}
+
+.nav-bar {
+  justify-content: space-between;
+  height: 36px;
+  margin: 20px;
+}
+
+.col1 {
+  justify-content: flex-start;
+  margin-right: 15%;
+}
+
+.col1 > .logo {
+  width: 80px;
+  height: 24px;
+  margin-top: 10px;
+}
+
+.col2 {
+  flex: 0.7;
+  margin-top: 10px;
+  justify-content: center;
+}
+
+.col2 > form {
+  flex: 1;
+  height: 32px;
+}
+
+.col2 .searchbox {
+  margin-right: 0;
+  padding-right: 0;
+  flex-grow: 0.7;
+  border-style: solid;
+  border-radius: 0;
+  border-right: 0;
+  box-shadow: none !important;
+}
+
+.col2 .searchBtn {
+  margin-left: 0 !important;
+  border-style: solid;
+  border-radius: 0;
+  cursor: pointer;
+}
+
+.comments-icon > svg {
+  width: 24px;
+  height: 24px;
+  fill: #5c5a5a;
+}
+
+.save-icon > a > i > svg {
+  width: 20px;
+  height: 20px;
+  fill: #666464;
+  vertical-align: middle;
+  display: inline-block;
+}
+
+.col3 .icon-wrapper svg {
+  fill: #606060;
+}
+
+.col2 .searchBtn svg {
+  width: 25px;
+  height: 25px;
+  fill: rgb(165, 161, 161);
+}
+
+.col2 .searchBtn svg:hover {
+  fill: rgb(122, 116, 116);
+}
+
+.col3 {
+  justify-content: space-between;
+  align-items: flex-end;
+}
+
+.col3 .icon-wrapper .avatar {
+  border-radius: 60px;
+}
+
+.icon-wrapper {
+  width: 24px;
+  height: 24px;
+  padding: 0 15px;
+}
+
+.page-wrapper {
+  flex-direction: row;
+  background: #f8f8fa;
+  padding: 20px;
+}
+
+.main-content {
+  width: 70%;
+  margin: 20px 20px;
+}
+
+/* video stats */
+.video-stats {
+  justify-content: space-between;
+}
+
+.views {
+  margin: 10px;
+}
+
+.likes-dislikes > div > button,
+.likes-dislikes > div > a,
+.likes-dislikes > .likes {
+  margin: 5px;
+}
+
+.likes-dislikes > .save-icon > button {
+  margin: 5px;
+  border: none;
+}
+.uploader-icon {
+  margin-top: 5px;
+  width: 7%;
+}
+
+.channel-info {
+  width: 60%;
+}
+
+.channel-info .uploader-name {
+  font-weight: bold;
+  margin-bottom: 1px;
+}
+
+.channel-info .subscriber-info {
+  font-size: 0.9rem;
+  margin-top: 5px;
+}
+
+div.subscriber-button {
+  justify-content: flex-end;
+  width: 33%;
+  align-items: flex-start;
+}
+
+div.subscriber-button > a {
+  border-style: solid;
+  border-radius: 5%;
+  display: block;
+  width: 120px;
+  text-align: center;
+  padding: 10px;
+}
+
+/* video info */
+.video-info {
+  padding-left: 7%;
+}
+
+.video-content {
+  width: 60%;
+}
+
+.video-content > .description {
+  font-size: 0.9rem;
+}
+
+
+/* video icon styles */
+.uploader-icon > img {
+  border-radius: 50%;
+}
+
+/* channel info styles */
+.comments-num {
+  width: 20%;
+}
+
+.comments-sorting {
+  width: 85%;
+  align-items: center;
+}
+
+.comments-icon {
+  width: 6%;
+
+  /* padding-top: 14px; */
+}
+
+.comments-sort {
+  width: 70%;
+}
+
+/* comments form */
+.comments-form {
+  padding-top: 20px;
+}
+
+.comment-form-icon {
+  width: 10%;
+}
+
+.comment-form-icon > img {
+  border-radius: 50%;
+}
+
+.comments-text-box {
+  width: 85%;
+}
+
+.comments-text-box > input,
+.comments-text-box > input:hover,
+.comments-text-box > input:focus {
+  width: 100%;
+  border: none;
+  border-bottom: 1px solid grey;
+  outline: none;
+}
+
+/* comments buttons */
+.comment-buttons {
+  justify-content: flex-end;
+}
+
+.comment-buttons > .cancel-btn {
+  padding: 10px 20px;
+  border: none;
+  font-weight: 500;
+}
+
+.comment-buttons > .comment-btn {
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5%;
+  font-weight: 500;
+}
+
+.comment-card-icon {
+  width: 7%;
+}
+
+.comment-card-icon > img {
+  border-radius: 50%;
+}
+
+.comment-card-column {
+  width: 85%;
+}
+
+.name-time-frame > .commenter {
+  font-weight: bold;
+  padding: 0 3px;
+  margin: 2px 0;
+}
+
+.name-time-frame > .comment-time {
+  padding: 0 3px;
+  margin: 2px 0;
+}
+
+.comment-thumbs {
+  padding: 10px;
+  padding-left: 0;
+}
+
+.comment-thumbs > i {
+  padding: 0 7px;
+}
+
+.comment-thumbs > div {
+  padding: 0 15px;
+}
+
+/* side bar */
+.side-videos {
+  width: 30%;
+  margin: 20px 20px;
+}
+
+.embeded-video {
+  width: 100%;
+  height: 400px;
+}
+
+.thumbnail-card {
+  padding: 10px 0;
+  cursor: pointer;
+  flex-wrap: wrap;
+}
+
+.thumbnail-card > .thumbnail-image {
+  width: 40%;
+  height: 94px;
+  padding-right: 15px;
+}
+
+.thumbnail-card > .thumbnail-image > img {
+  max-width: 100%;
+  height: auto;
+}
+
+.thumbnail-card > .thumbnail-title {
+  width: 50%;
+  margin-top: 0;
+  padding: 0;
+  height: 94px;
+}
+
+.thumbnail-card > .thumbnail-title > * {
+  margin: 0;
+}
+
+.thumbnail-card > .thumbnail-title > p {
+  padding: 5px;
+}
+
+.side-autoplay > .side-upnext {
+  width: 30%;
+}
+
+.side-autoplay > .side-upnext > p {
+  font-weight: bold;
+  padding: 10px;
+  color: #302d2d;
+}
+
+.side-autoplay > .side-toggle {
+  flex: 1;
+  justify-content: flex-end;
+}
+
+.side-autoplay > .side-toggle > div {
+  align-self: center;
+  align-items: center;
+}
+
+.side-autoplay > .side-toggle > div > .autoplay-text {
+  margin-right: 10px;
+  font-weight:bolder;
+}
+
+.side-autoplay > .side-toggle > div > i {
+  font-size: 1.5rem;
+}
+
+.next-play {
+  border-bottom: 1px solid rgb(199, 195, 195);
+}
+
+.main-video iframe {
+  border-width: 0;
+  width: 100%;
+}
+
+/* text colors */
+
+.gray {
+  color: #545454;
+}
+
+.deep-gray {
+  color: #302d2d;
+}
+
+.dark-gray {
+  color: #575555;
+}
+
+.white {
+  color: white;
+}
+
+
+/*  border colors */
+
+.border-red {
+  border-color: #cc0202;
+}
+
+.border-light-gray {
+  border-color: #ccc;
+}
+
+/* backgrounds */
+
+.bg-red {
+  background: #cc0202;
+}
+
+.bg-light-gray {
+  background: #cecece;
+}
+
+/* text transform */
+.transform{
+  text-transform: uppercase;
+}
+
+/* border-none */
+.border-none{
+  border: none;
+}
+
+/* one-rem */
+.one-rem{
+  font-size: 1rem;
+}
+
+/* transparent background */
+.transparent-bg{
+  background: transparent;
+}
