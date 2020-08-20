@@ -135,13 +135,10 @@ a {
 .likes-dislikes > div > a,
 .likes-dislikes > .likes {
   margin: 5px;
-  background: transparent;
-  border: none;
 }
 
 .likes-dislikes > .save-icon > button {
   margin: 5px;
-  background: transparent;
   border: none;
 }
 .uploader-icon {
@@ -154,7 +151,6 @@ a {
 }
 
 .channel-info .uploader-name {
-  font-size: 1rem;
   font-weight: bold;
   margin-bottom: 1px;
 }
@@ -171,7 +167,6 @@ div.subscriber-button {
 }
 
 div.subscriber-button > a {
-  text-transform: uppercase;
   border-style: solid;
   border-radius: 5%;
   display: block;
@@ -204,10 +199,6 @@ div.subscriber-button > a {
   width: 20%;
 }
 
-.comments-num > p {
-  font-size: 1rem;
-}
-
 .comments-sorting {
   width: 85%;
   align-items: center;
@@ -221,11 +212,6 @@ div.subscriber-button > a {
 
 .comments-sort {
   width: 70%;
-  text-transform: uppercase;
-}
-
-.comments-sort > p {
-  font-size: 1rem;
 }
 
 /* comments form */
@@ -251,7 +237,6 @@ div.subscriber-button > a {
   width: 100%;
   border: none;
   border-bottom: 1px solid grey;
-  background: transparent;
   outline: none;
 }
 
@@ -262,14 +247,12 @@ div.subscriber-button > a {
 
 .comment-buttons > .cancel-btn {
   padding: 10px 20px;
-  text-transform: uppercase;
   border: none;
   font-weight: 500;
 }
 
 .comment-buttons > .comment-btn {
   padding: 10px 20px;
-  text-transform: uppercase;
   border: none;
   border-radius: 5%;
   font-weight: 500;
@@ -361,7 +344,6 @@ div.subscriber-button > a {
 .side-autoplay > .side-upnext > p {
   font-weight: bold;
   padding: 10px;
-  font-size: 1rem;
   color: #302d2d;
 }
 
@@ -376,7 +358,6 @@ div.subscriber-button > a {
 }
 
 .side-autoplay > .side-toggle > div > .autoplay-text {
-  text-transform: uppercase;
   margin-right: 10px;
   font-weight:bolder;
 }
@@ -433,6 +414,22 @@ div.subscriber-button > a {
   background: #cecece;
 }
 
-.bg-transparent {
+/* text transform */
+.transform{
+  text-transform: uppercase;
+}
+
+/* border-none */
+.border-none{
+  border: none;
+}
+
+/* one-rem */
+.one-rem{
+  font-size: 1rem;
+}
+
+/* transparent background */
+.transparent-bg{
   background: transparent;
 }
