@@ -15,17 +15,21 @@ a {
 .flex{
     display: flex;
 }
+.flex-row{
+  flex-direction: row;
+}
+
+.flex-column{
+  flex-direction: column;
+}
 
 .nav-bar {
- 
-  flex-direction: row;
   justify-content: space-between;
   height: 36px;
   margin: 20px;
 }
 
 .col1 {
-  flex-direction: row;
   justify-content: flex-start;
   margin-right: 15%;
 }
@@ -37,7 +41,6 @@ a {
 }
 
 .col2 {
-  flex-direction: row;
   flex: 0.7;
   margin-top: 10px;
   justify-content: center;
@@ -68,8 +71,6 @@ a {
 .comments-icon > svg {
   width: 24px;
   height: 24px;
-
-  /* margin-right: 10px; */
   fill: #5c5a5a;
 }
 
@@ -96,7 +97,6 @@ a {
 }
 
 .col3 {
-  flex-direction: row;
   justify-content: space-between;
   align-items: flex-end;
 }
@@ -124,16 +124,11 @@ a {
 
 /* video stats */
 .video-stats {
-  flex-direction: row;
   justify-content: space-between;
 }
 
 .views {
   margin: 10px;
-}
-
-.likes-dislikes {
-  flex-direction: row;
 }
 
 .likes-dislikes > div > button,
@@ -149,11 +144,6 @@ a {
   background: transparent;
   border: none;
 }
-
-.uploader-info {
-  flex-direction: row;
-}
-
 .uploader-icon {
   margin-top: 5px;
   width: 7%;
@@ -192,7 +182,6 @@ div.subscriber-button > a {
 
 /* video info */
 .video-info {
-  flex-direction: row;
   padding-left: 7%;
 }
 
@@ -211,12 +200,6 @@ div.subscriber-button > a {
 }
 
 /* channel info styles */
-
-/* comments stats */
-.comments-stats {
-  flex-direction: row;
-}
-
 .comments-num {
   width: 20%;
 }
@@ -226,7 +209,6 @@ div.subscriber-button > a {
 }
 
 .comments-sorting {
-  flex-direction: row;
   width: 85%;
   align-items: center;
 }
@@ -248,7 +230,6 @@ div.subscriber-button > a {
 
 /* comments form */
 .comments-form {
-  flex-direction: row;
   padding-top: 20px;
 }
 
@@ -276,7 +257,6 @@ div.subscriber-button > a {
 
 /* comments buttons */
 .comment-buttons {
-  flex-direction: row;
   justify-content: flex-end;
 }
 
@@ -295,11 +275,6 @@ div.subscriber-button > a {
   font-weight: 500;
 }
 
-/* comments card */
-.comments-card {
-  flex-direction: row;
-}
-
 .comment-card-icon {
   width: 7%;
 }
@@ -310,11 +285,6 @@ div.subscriber-button > a {
 
 .comment-card-column {
   width: 85%;
-  flex-direction: column;
-}
-
-.name-time-frame {
-  flex-direction: row;
 }
 
 .name-time-frame > .commenter {
@@ -329,7 +299,6 @@ div.subscriber-button > a {
 }
 
 .comment-thumbs {
-  flex-direction: row;
   padding: 10px;
   padding-left: 0;
 }
@@ -342,13 +311,8 @@ div.subscriber-button > a {
   padding: 0 15px;
 }
 
-.comment-replies {
-  flex-direction: row;
-}
-
 /* side bar */
 .side-videos {
-  flex-direction: column;
   width: 30%;
   margin: 20px 20px;
 }
@@ -359,7 +323,6 @@ div.subscriber-button > a {
 }
 
 .thumbnail-card {
-  flex-direction: row;
   padding: 10px 0;
   cursor: pointer;
   flex-wrap: wrap;
@@ -391,12 +354,6 @@ div.subscriber-button > a {
   padding: 5px;
 }
 
-/*  sidebar autoplay */
-.side-autoplay {
-  flex-direction: row;
-
-}
-
 .side-autoplay > .side-upnext {
   width: 30%;
 }
@@ -410,7 +367,6 @@ div.subscriber-button > a {
 
 .side-autoplay > .side-toggle {
   flex: 1;
-  flex-direction: row;
   justify-content: flex-end;
 }
 
@@ -432,10 +388,6 @@ div.subscriber-button > a {
 .next-play {
   border-bottom: 1px solid rgb(199, 195, 195);
 }
-
-/* .main-video {
-            display: flex;
-        } */
 
 .main-video iframe {
   border-width: 0;

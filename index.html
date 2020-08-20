@@ -9,8 +9,8 @@
     <title>YouTube Clone</title>
 </head>
 <body>
-    <nav class="flex nav-bar">
-        <div class="flex col1">
+    <nav class="flex flex-row nav-bar">
+        <div class="flex flex-row col1">
             <!-- logo -->
             <div class="logo">
             <svg viewBox="0 0 200 60" preserveAspectRatio="xMidYMid meet" focusable="false" class="style-scope ytd-topbar-logo-renderer" style="pointer-events: none; display: block; width: 100%; height: 100%;">
@@ -59,7 +59,7 @@
             </svg>
           </div>
          </div>
-         <div class="flex col2">
+         <div class="flex flex-row col2">
             <!-- search box -->
             <form class="flex" action="#" method="POST">
                 <input type="text" name="search" class="searchbox border-light-gray"/>
@@ -71,7 +71,7 @@
                 </button>
             </form>
         </div>
-        <div class="flex col3">
+        <div class="flex flex-row col3">
             <!-- first icon -->
             <div class="icon-wrapper">
             <svg viewBox="0 0 24 24" preserveAspectRatio="xMidYMid meet" focusable="false" class="style-scope yt-icon" style="pointer-events: none; display: block; width: 100%; height: 100%;"><g class="style-scope yt-icon">
@@ -113,11 +113,11 @@
         <div class="video-title">
           <h2>Contributing to Open Source Part I: The Easy Way</h2>
         </div>
-        <div class="flex video-stats">
+        <div class="flex flex-row video-stats">
           <div class="views">
             10 390 views . 12 August 2020
           </div>
-          <div class="flex likes-dislikes">
+          <div class="flex flex-row likes-dislikes">
             <div class="likes">
               <a href="#"><i class="fa fa-thumbs-up gray" aria-hidden="true"></i></a>
               <a class="gray" href="#">89</a>
@@ -142,7 +142,7 @@
           </div>
         </div>
         <hr>
-        <div class="flex uploader-info">
+        <div class="flex flex-row uploader-info">
           <!-- uploader info here -->
           <div class="uploader-icon">
             <img  alt="" width="48" src="https://yt3.ggpht.com/a/AATXAJyfp0akR7PCq72FcsHL1DrLUbzqKet6_ZK6Nw=s176-c-k-c0xffffffff-no-rj-mo">
@@ -153,7 +153,7 @@
           </div>
           <div class="flex subscriber-button"><a class="bg-red border-red white" href="#">subscribe</a></div>
         </div>
-        <div class="flex video-info">
+        <div class="flex flex-row video-info">
           <!-- video info here -->
           <div class="video-content">
             <p class="description deep-gray">How do you contribute to open source?  In this video, I'll describe the easiest way to make a simple contribution to an open source project -- without using the command line, a text editor, "forking a repo", or even touching Git outside of Github.  I'll also describe what kinds of </p>
@@ -161,12 +161,12 @@
           </div>
         </div>
         <hr>
-        <div class="flex comments-stats">
+        <div class="flex flex-row comments-stats">
           <!-- comments stats here -->
           <div class="comments-num">
             <p>15 Comments</p>
           </div>
-          <div class="flex comments-sorting">
+          <div class="flex flex-row comments-sorting">
             <div class="flex comments-icon">
               <svg viewBox="0 0 24 24"><g>
                 <path d="M3 18h6v-2H3v2zM3 6v2h18V6H3zm0 7h12v-2H3v2z"></path>
@@ -178,7 +178,7 @@
             </div>
           </div>
         </div>
-        <div class="flex comments-form">
+        <div class="flex flex-row comments-form">
           <!-- comments form here -->
           <div class="comment-form-icon">
             <img alt="Willard Nyamunokora" src="https://lh5.googleusercontent.com/-zJQbXd-WDDg/AAAAAAAAAAI/AAAAAAAAAAA/AMZuuclOKITT4QDJbkCig9vcIkMDSO-yNw/s88/photo.jpg" width="40" height="40">
@@ -187,58 +187,58 @@
             <input type="text" placeholder="Add a public comment"/>
           </div>
         </div>
-        <div class="flex comment-buttons">
+        <div class="flex flex-row comment-buttons">
           <a class="cancel-btn bg-transparent gray" href="#">cancel</a>
           <a class="comment-btn bg-light-gray white" href="#">comment</a>
         </div>
 
         <!-- comments come here -->
-        <div class="flex comments-card">
+        <div class="flex flex-row comments-card">
           <div class="comment-card-icon">
             <img alt ="icon" src="https://yt3.ggpht.com/a/AATXAJwsPwwwTp7EvQU8V5yIhveenyEtGhz0JmO4TV9a3Q=s48-c-k-c0xffffffff-no-rj-mo" width="40" height="40">
           </div>
-          <div class="flex comment-card-column">
-            <div class="flex name-time-frame">
+          <div class="flex flex-column comment-card-column">
+            <div class="flex flex-row name-time-frame">
               <p class="commenter">Okusa Robert</p>
               <p class="comment-time gray">2 years ago</p>
             </div>
             <div class="comments-content">Thanks for the video! If or when your commit gets approved and merged with the upstream, is it then safe to remove the cloned repo from your computer? Thank you for your help!
             </div>
-            <div class="flex comment-thumbs">
+            <div class="flex flex-row comment-thumbs">
               <i class="fa fa-thumbs-up gray" aria-hidden="true"></i><span>3</span>
               <i class="fa fa-thumbs-down gray" aria-hidden="true"></i><span>1</span>
               <div class="comment-replies-num"><a href="#">REPLY</a></div>
             </div>
           </div>
         </div>
-        <div class="flex comments-card">
+        <div class="flex flex-row comments-card">
           <div class="comment-card-icon">
             <img alt="icon" src="https://yt3.ggpht.com/a/AATXAJzEZVJjKjg21A53_YLuUFN37n490hMqPtCa4eyt-g=s48-c-k-c0xffffffff-no-rj-mo" width="40" height="40">          </div>
-          <div class="flex comment-card-column">
+          <div class="flex flex-column comment-card-column">
             <div class="flex name-time-frame">
               <p class="commenter">Will Farai</p>
               <p class="comment-time gray">3 years ago</p>
             </div>
             <div class="comments-content">A remark to what happening at 04:12 is: after clicking "Propose file change", it now goes to commit page instead of the pull request screen as shown on the video. One need to click the commit name (e.g. patch-1 if it is the first commit of your branch) near the top of the screen to go to the pull request 
             </div>
-            <div class="flex comment-thumbs">
+            <div class="flex flex-row comment-thumbs">
               <i class="fa fa-thumbs-up gray" aria-hidden="true"></i><span>27</span>
               <i class="fa fa-thumbs-down gray" aria-hidden="true"></i><span>89</span>
               <div class="comment-replies-num"><a class="gray" href="#">REPLY</a></div>
             </div>
           </div>
         </div>
-        <div class="flex comments-card">
+        <div class="flex flex-row comments-card">
           <div class="comment-card-icon">
             <img alt="icon" src="https://yt3.ggpht.com/a/AATXAJzJ4Bci2JiOO5CKWjqCGgsAE0xHZcSg9JHVmzsz-g=s48-c-k-c0xffffffff-no-rj-mo" width="40" height="40">          </div>
-          <div class="flex comment-card-column">
+          <div class="flex flex-column comment-card-column">
             <div class="flex name-time-frame">
               <p class="commenter">Yanick Kazoh</p>
               <p class="comment-time gray">4 years ago</p>
             </div>
             <div class="comments-content">Wow this video was super helpful, clear, and concise. Thank you very much.
             </div>
-            <div class="flex comment-thumbs">
+            <div class="flex flex-row comment-thumbs">
               <i class="fa fa-thumbs-up gray" aria-hidden="true"></i><span>17</span>
               <i class="fa fa-thumbs-down gray" aria-hidden="true"></i><span>3</span>
               <div class="comment-replies-num"><a class="gray" href="#">REPLY</a></div>
@@ -250,10 +250,10 @@
 
 
    <!-- beginning of side content -->
-   <div class="flex side-videos"> 
-    <div class="flex side-autoplay">
+   <div class="flex flex-column side-videos"> 
+    <div class="flex flex-row side-autoplay">
       <div class="side-upnext"><p>Up Next</p></div>
-      <div class="flex side-toggle">
+      <div class="flex flex-row side-toggle">
         <div class="flex">
           <span class="autoplay-text gray">autoplay</span>
           <i class="fa fa-toggle-on gray" aria-hidden="true"></i>
@@ -261,7 +261,7 @@
       </div>
     </div>
     <a class="gray" href="#">
-      <div class="flex thumbnail-card next-play">
+      <div class="flex flex-row thumbnail-card next-play">
         <div class="thumbnail-image">
           <img  alt="" src="https://i.ytimg.com/vi/YJZCUhxNCv8/hqdefault.jpg?sqp=-oaymwEZCNACELwBSFXyq4qpAwsIARUAAIhCGAFwAQ==&amp;rs=AOn4CLCxlKUaUTcbJjQxJBiVqoX0xMwFnQ" width="168">
         </div>
@@ -276,7 +276,7 @@
     </a>
 
     <a class="gray" href="#">
-      <div class="flex thumbnail-card">
+      <div class="flex flex-row thumbnail-card">
         <div class="thumbnail-image">
           <img  alt="" src="https://i.ytimg.com/vi/mENDYhfxH-o/hqdefault.jpg?sqp=-oaymwEZCNACELwBSFXyq4qpAwsIARUAAIhCGAFwAQ==&rs=AOn4CLAiks9toy1laAgbrWzRVvOiAijYqg" width="168">
         </div>
@@ -292,7 +292,7 @@
     </a>
 
     <a class="gray" href="#">
-      <div class="flex thumbnail-card">
+      <div class="flex flex-row thumbnail-card">
         <div class="thumbnail-image">
           <img  alt="" src="https://i.ytimg.com/vi/sBws8MSXN7A/hqdefault.jpg?sqp=-oaymwEZCNACELwBSFXyq4qpAwsIARUAAIhCGAFwAQ==&rs=AOn4CLCDpIT4AG_7WCMg9fp5LmpwFtAh8A" width="168">
         </div>
